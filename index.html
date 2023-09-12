@@ -78,12 +78,12 @@
                 </a>
               </span> -->
               <span class="link-block">
-                <a href="ADD ME"
+                <a href="http://arxiv.org/abs/2309.05418"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv coming soon</span>
+                  <span>arXiv</span>
                 </a>
               </span>
               <!-- Video Link. -->
@@ -123,16 +123,6 @@
     </div>
   </div>
 </section>
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <image src="static/images/overview.svg" />
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">FlowIBR</span> allows to change the visual appearance of an observed scene while preserving the underlying geometry
-      </h2>
-    </div>
-  </div>
-</section>
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -152,6 +142,25 @@
         </div>
       </div>
     </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-max-desktop">
+        <h2 class="title is-3">Method</h2>
+        <image src="static/images/overview.svg" />
+        <div class="content has-text-justified">
+            <b>a)</b> An image at an arbitrary position (orange camera) is synthesised based on existing observations (black camera), collected at different times. 
+            <b>Problem:</b> Due to the movement of the skater, the skater is not on the epipolar line of the camera ray, which is necessary for image-based rendering.
+            <b>b)</b> We model scene motion using per-scene learned scene flow.
+            <b>c)</b> Scene flow is used to compensate for the motion by adjusting the camera ray. 
+            <b>d)</b> GNT, a pre-trained neural IBR method for static scenes is used for image synthesis.
+          </div>
+      </div>
+    </div>
+</section>
+<section class="section">
     <!--/ Abstract. -->
     <!-- Paper video. -->
     <!-- <div class="columns is-centered has-text-centered">
@@ -175,7 +184,7 @@
   title         = {FlowIBR: Leveraging Pre-Training for Efficient Neural Image-Based Rendering of Dynamic Scenes}, 
   author        = {Marcel Büsching, Josef Bengtson, David Nilsson, Mårten Björkman},
   year          = {2023},
-  eprint        = {ADD ME},
+  eprint        = {2309.05418},
   archivePrefix = {arXiv},
 }</code></pre>
   </div>
